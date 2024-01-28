@@ -1,0 +1,26 @@
+{
+  "name": "realtime-chat-application",
+  "version": "1.0.0",
+  "description": "Realtime chat app using socket.io and vanilla JavaScript",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "serve": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atharvdange618/Realtime-Chat-Application.git"
+  },
+  "author": "Atharv Dange",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atharvdange618/Realtime-Chat-Application/issues"
+  },
+  "homepage": "https://github.com/atharvdange618/Realtime-Chat-Application#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3",
+    "socket.io": "^4.7.4"
+  }
+}
